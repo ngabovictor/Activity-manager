@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddProfileActivity"
+    android:background="@color/DarkModecolorPrimary"
+    android:padding="16dp">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_show_chart_white"
+        android:layout_centerInParent="true"
+        android:layout_above="@id/disclaimer"
+        android:id="@+id/icon"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add your personal stats URL from WakaTime dashboard.\nThe URL must be returning the JSON data, and must be the one which provides the weekly stats."
+        android:layout_above="@id/url_view"
+        android:gravity="center_horizontal"
+        android:textColor="@color/DarkModeTextColor"
+        android:id="@+id/disclaimer"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="30dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/url_view"
+        android:hint="https://wakatimeurl.json"
+        android:layout_centerInParent="true"
+        android:padding="10dp"
+        android:background="@drawable/rectangle_white"/>
+
+    <Button
+        android:id="@+id/save_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/url_view"
+        android:text="continue"
+        android:layout_marginTop="10dp"
+        android:foregroundTint="@color/DarkModeTextColor"
+        android:textColor="@color/DarkModecolorPrimary"/>
+
+
+
+
+</RelativeLayout>

@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
+
+    <!--Dark Mode Colors-->
+    <color name="DarkModecolorPrimary">#212121</color>
+    <color name="DarkModecolorPrimaryDark">#000000</color>
+    <color name="DarkModecolorPrimaryLight">#484848</color>
+    <color name="DarkModecolorAccent">#FFFFFF</color>
+    <color name="DarkModeTextColor">#FFFFFF</color>
+
+
+    <!--Light Mode Colors-->
+    <color name="LightModecolorPrimary">#FFFFFF</color>
+    <color name="LightModecolorPrimaryDark">#FFFFFF</color>
+    <color name="LightModecolorPrimaryLight">#FFFFFF</color>
+    <color name="LightModecolorAccent">#212121</color>
+    <color name="LightModeTextColor">#212121</color>
 </resources>

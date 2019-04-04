@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">Activity Manager</string>
+    <string name="app_name">Code Stats</string>
+    <string name="today_caps">TODAY</string>
 </resources>
