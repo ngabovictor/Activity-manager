@@ -20,7 +20,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Add your personal stats URL from WakaTime dashboard.\nThe URL must be returning the JSON data, and must be the one which provides the weekly stats."
+        android:text="@string/intro_note"
         android:layout_above="@id/url_view"
         android:gravity="center_horizontal"
         android:textColor="@color/DarkModeTextColor"
@@ -33,7 +33,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/url_view"
-        android:hint="https://wakatimeurl.json"
+        android:hint="@string/https_wakatimeurl_json"
         android:layout_centerInParent="true"
         android:padding="10dp"
         android:background="@drawable/rectangle_white"/>
@@ -43,7 +43,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/url_view"
-        android:text="continue"
+        android:text="@string/continue_text"
         android:layout_marginTop="10dp"
         android:foregroundTint="@color/DarkModeTextColor"
         android:textColor="@color/DarkModecolorPrimary"/>

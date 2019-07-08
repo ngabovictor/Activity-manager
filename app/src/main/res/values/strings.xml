@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Code Stats</string>
     <string name="today_caps">TODAY</string>
+    <string name="intro_note">Add your personal stats URL(s) from WakaTime dashboard. The URL(s) must be returning the JSON data, and must be the one(s) to provide the weekly stats.</string>
+    <string name="https_wakatimeurl_json">https://wakatimeurl.json</string>
+    <string name="continue_text">continue</string>
 </resources>
