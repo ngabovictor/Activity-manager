@@ -39,7 +39,7 @@ class MainActivity : AppCompatActivity() {
 
         val url = preferences.getString("base_url", "")
 
-        if (url.isEmpty()){
+        if (url!!.isBlank()){
             startActivity(Intent(this, AddProfileActivity::class.java))
             finish()
         }
